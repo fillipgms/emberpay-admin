@@ -41,6 +41,7 @@ interface MeProps {
     enabled_deposit: boolean;
     balance: string;
     fee: FeeProps;
+    permissions: string[];
 }
 
 interface ViewUserAdmin {
