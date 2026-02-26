@@ -32,6 +32,17 @@ interface User {
     wallet: UserWallet;
 }
 
+interface MeProps {
+    name: string;
+    email: string;
+    cpfOrCnpj: string;
+    auto_approve_withdrawal: boolean;
+    enabled_withdraw: boolean;
+    enabled_deposit: boolean;
+    balance: string;
+    fee: FeeProps;
+}
+
 interface ViewUserAdmin {
     id: number;
     name: string;
